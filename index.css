@@ -1,0 +1,58 @@
+/* body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+  } */
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  #about a {
+    display: block;
+  }
+  #skills a {
+    background-color: cornsilk;
+  }
+  #about,
+#skills, #work {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100vh;
+  padding: 1rem;
+}
+nav a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: firebrick;
+    border-bottom: 2px solid firebrick;
+    transition: 0.1s;
+  }
+  
+  nav a:hover,
+  nav a:active {
+    color: tomato;
+    border-bottom: 2px solid tomato;
+  }
+
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+  margin-bottom: 1em;
+}
